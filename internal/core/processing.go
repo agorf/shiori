@@ -128,6 +128,7 @@ func ProcessBookmark(req ProcessRequest) (model.Bookmark, bool, error) {
 			URL:         book.URL,
 			Reader:      archivalInput,
 			ContentType: contentType,
+			UserAgent:   userAgent,
 			LogEnabled:  req.LogArchival,
 		}
 
