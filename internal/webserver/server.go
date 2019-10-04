@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-shiori/shiori/internal/database"
-	"github.com/go-shiori/shiori/pkg/warc"
+	"github.com/go-shiori/warc"
 	"github.com/julienschmidt/httprouter"
 	cch "github.com/patrickmn/go-cache"
 	"github.com/sirupsen/logrus"

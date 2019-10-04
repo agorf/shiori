@@ -18,7 +18,7 @@ import (
 	"github.com/disintegration/imaging"
 	"github.com/go-shiori/go-readability"
 	"github.com/go-shiori/shiori/internal/model"
-	"github.com/go-shiori/shiori/pkg/warc"
+	"github.com/go-shiori/warc"
 
 	// Add support for png
 	_ "image/png"

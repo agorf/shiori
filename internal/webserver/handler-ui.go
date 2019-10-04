@@ -15,7 +15,7 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/go-shiori/shiori/pkg/warc"
+	"github.com/go-shiori/warc"
 	"github.com/julienschmidt/httprouter"
 )
 
